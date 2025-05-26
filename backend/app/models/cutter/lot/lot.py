@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, DateTime, Float, ForeignKey
 from sqlalchemy.orm import relationship
-from ...base import BaseModel
+from app.models.cutter.base import BaseModel
 from datetime import datetime
 
 class Lot(BaseModel):
